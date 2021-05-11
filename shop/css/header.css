@@ -1,0 +1,59 @@
+
+  .nav {
+    list-style-type: none;
+    height: 80px;
+  }
+
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    margin: 0px 407px 0 405px;
+  }
+
+  .logo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: right;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    margin-right: 40px;
+  }
+  
+  .nav-link:hover {
+    color: bisque;
+  }
+  
+  header {
+    height: 44px;
+    font-size: 12px;
+    display: inline;
+    text-transform: none;
+    width: 100%;
+  }
+/* 
+  .contact {
+    margin-left: 436px;
+    width: 355px;
+    height: 16px;
+  } */
+
+  .right {
+    margin-left: 972px;
+    /* width: 107px;
+    height: 16px; */
+  }
+
+  .face {
+    width: 1920px;
+    height: 810px;
+    margin: 0px 0px 0px 0px;
+  }
