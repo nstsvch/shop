@@ -1,8 +1,8 @@
 *{margin: 0; padding: 0; border: 0;}
 
 html, body {
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
   font-size: 100%;
   font-family: 'PT Sans', sans-serif;
   color: #FFF;
@@ -11,6 +11,12 @@ html, body {
   -ms-text-size-adjust: 100%;
   background-color: rgb(0, 0, 0);
 }
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+}
+
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
@@ -20,4 +26,79 @@ img{vertical-align: top;}
 	box-sizing: border-box;
 }
 
-@import "/css/header.css";
+/* Top */
+.connection {
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info, .login {
+  display: flex;
+  align-items: center;
+}
+
+/* Header */
+.header {
+  background-color: #0F0F0F;
+}
+
+.header-row {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  text-transform: none;
+  font-size: 14px;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+  margin-right: 40px;
+}
+
+.nav-link:hover {
+  color: bisque;
+}
+
+/* Face */
+.face {
+  height: 810px;
+  background: url(C:/Users/a5rs5/Верстка/shop/shop/img/face.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.face-content {
+  text-transform: uppercase;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 160px;
+  text-align: center;
+}
+
+.face-title {
+  height: 320px;  
+  width: 320px;
+  text-align: center;
+  border: 4px solid white;
+  margin-left: 395px;
+  padding-top: 120px;
+}
+
+.face-description {
+  font-size: 16px;
+  text-align: center;
+  padding: 80px 175px 0px 175px;
+  opacity: 1;
+  line-height: 24px;
+  font-style: normal;
+}
