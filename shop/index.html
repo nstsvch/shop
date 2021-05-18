@@ -14,14 +14,18 @@
     <div class="top container">
         <div class="connection">
             <div class="contact-info">
-                <p><img src="img/phone.svg" width="13.33" height="13.36" alt="phone"></p>
-                <p class="contact-number">8 (812) 123-45-67</p>
-                <p class="contact-description"> | Работаем 7 дней в неделю | </p>
-                <p class="contact-time"> 9:00 — 18:00 </p>
+                <p class="contact-item"><img src="img/phone.svg" alt="phone"></p>
+                <p class="contact-item">8 (812) 123-45-67</p>
+                <p class="contact-item">|</p>
+                <p class="contact-item">Работаем 7 дней в неделю</p>
+                <p class="contact-item">|</p>
+                <p class="contact-item"> 9:00 — 18:00 </p>
             </div>
             <div class="login">
-                <p class="conection_sign">Войти</p>
-                <p class="connection_log">Регистрация</p>
+                <p class="login-item"><img src="img/login.svg" alt="login"></p>
+                <p class="login-item">Войти</p>
+                <p class="login-item">/</p>
+                <p class="login-item">Регистрация</p>
             </div>
         </div>
     </div>
@@ -45,8 +49,11 @@
     <div class="face">
         <div class="container">
             <div class="face-content">
-                <h3 class="face-title"><img src="img/PORTEN.svg" alt="" class="face-logo"> <br>
-                    Cанкт-петербург</h3>
+                <div class="porten">
+                    <img src="img/PORTEN.svg" alt="" class="face-logo">
+                    <hr class="face-line">
+                    <h3 class="face-title">Cанкт-петербург</h3>
+                </div>
                 <p class="face-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum purus, est tortor pulvinar ut in. Fringilla a diam enim sed justo, sed iaculis sagittis. Tortor id eu interdum nec ut iaculis. Penatibus ullamcorper ultricies morbi ipsum sem metus pharetra, mi. Tortor nibh magna feugiat id nunc, dui nisl viverra.</p>
             </div>
         </div>
@@ -156,21 +163,46 @@
         </div>
     </div>
 
-    <!-- <div class="footer">
+    <footer class="footer">
         <div class="container">
-            <div class="footer-top">
-                <a href="/about" data-track="footer-about">About</a>
-                <a href="/jobs" data-track="footer-jobs">Jobs</a>
-                <a href="//blog.flickr.net/en" data-track="footer-blog">Blog</a>
-                <a href="/services/developer" data-track="footer-developers">Developers</a>
-                <a href="/help/guidelines" data-track="footer-guidelines">Guidelines</a>
-                <a href="//help.flickr.com" data-track="footer-help">Help</a>
-                <a href="/help/forum" data-track="footer-forum">Help forum</a>
-                <a href="/help/privacy" data-track="footer-privacy">Privacy</a>
-                <a href="/help/terms" data-track="footer-terms">Terms</a>
+            <div class="footer-content">
+                <div class="col-3 about">
+                    <h4 class="footer-title">О магазине</h4>
+                    <p class="footer-text footer-about">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra nunc cursus tortor lectus nunc nulla nibh. Egestas amet consectetur vel vitae aliquam dictum suspendisse. Lobortis eget consequat, tellus et et sed turpis. Pretium quisque vitae, amet, porttitor odio ultricies massa pharetra leo. Et ipsum urna fames in sit mi ultrices nisi, nunc. 
+                    </p>
+                </div>
+                <div class="col-3 categories">
+                    <h4 class="footer-title">Категории</h4>
+                    <a href="#" class="footer-link">часы</a>
+                    <a href="#" class="footer-link">браслеты</a>
+                    <a href="#" class="footer-link">ремни</a>
+                    <a href="#" class="footer-link">ювелирные изделия</a>
+                    <a href="#" class="footer-link">запонки</a>
+                </div>
+                <div class="col-3 mailing">
+                    <h4 class="footer-title">Рассылка</h4>
+                    <p class="footer-text footer-mailing">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra nunc cursus tortor lectus nunc nulla nibh.
+                    </p>
+                    <div class="link-form footer-text">
+                        <label class="footer-label"><input type="text" placeholder="Ваша почта"></label>
+                        <button class="footer-btn">Подписаться</button>
+                    </div>
+                </div>
             </div>
         </div>
-    </div> -->
- 
+    
+        <div class="footer-end container">
+            <div class="end">
+                <div class="end-left">
+                    <p class="end-textl">© 2020 Все права защищены</p>
+                </div>
+                <div class="end-right">
+                    <p class="end-textr">Сделано Figma.info</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
